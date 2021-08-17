@@ -1,5 +1,7 @@
+import MeetupList from './../components/meetups/MeetupList';
+
 const HomePage = () => {
-  return <div>Hello Fellas</div>;
+  return <MeetupList />;
 };
 
 export default HomePage;
